@@ -5,48 +5,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Componente CSS do Bootstrap 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css"
+        integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Componente CSS com biblioteca de ícones do Bootstrap 5 (https://icons.getbootstrap.com/) -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+        integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Meu site</title>
-    <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
-<!-- A tag <body> contém tudfo o que apare3ce no front-end. -->
-<body>
+<!-- A tag <body> contém tudo o que apare3ce no front-end. -->
+<body style="padding-top: 55px;">
 
-    <!-- <img src="https://oiimgteste.edgeone.app/fa571f0a4a4bb929ade67a49f122bd54.jpg" title="Imagem de moeda"
-        alt="Imagem de moeda" widht="100%" height="500px"> -->
-
-    <div class="titulo">
-        <h1> Meu site: </h1>
+<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Meu site</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="sobre.html">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contato</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="pesquise aqui">
+        <button class="btn btn-warning" type="button"><i class="bi bi-search"></i></button>
+      </form>
     </div>
+  </div>
+</nav>
 
-    <div class="subtitulo">
-        <p>Um site criado e desenvolvido por mim.</p>     
+<!--abre div 1--><div class="container p-3 my-3 rounded-3">
+    <img src="img/ceu.jpg" class="rounded-top-3" width="100%" height="250" >
+
+<!--abre div 2--><div class=" p-3 bg-dark text-white rounded-bottom">
+     <h1> Meu site bootstrap</h1>
+     <p>Um site criado e desenvolvido por mim.<p>
+
+<!--fecha div 2--></div>
+<p class="mt-3"> loren loren leoreh gyytu hdyrt oiitu hhfdgt jfbbk uut Lorem, 
+    ipsum dolor sit amet consectetur adipisicing elit. Expedita, 
+    totam delectus voluptatum doloremque provident ipsam dolor? 
+    Blanditiis libero vitae cum nostrum accusantium ut. 
+    Assumenda incidunt ut tempora praesentium accusamus explicabo! </p>
+
+<a type="button" class="btn btn-dark rounded-4" href="sobre.html"><strong>Saiba mais</strong></a>
+
+<div class="card mt-3 rounded-4 border-dark card shadow">
+    <div class="card-body" >
+        <h4 class="card-title"> Isto é um card destacado</h4>
+        <p class="card-text">Isso é o texto do card destacado</p>
     </div>
+</div>
+
+<div class="card mt-3 rounded-4">
+    <div class="card-body" >
+        <h4 class="card-title"> Isto é um card normal</h4>
+        <p class="card-text">Isso é o texto do card normal</p>
+    </div>
+</div>
+
+<div class="card mt-3 rounded-4">
+    <div class="card-body" >
+        <h4 class="card-title"> Isto é um card normal</h4>
+        <p class="card-text">Isso é o texto do card normal</p>
+    </div>
+</div>
+
+<div class="card mt-3 rounded-4">
+    <div class="card-body" >
+        <h4 class="card-title"> Isto é um card normal</h4>
+        <p class="card-text">Isso é o texto do card normal</p>
+    </div>
+</div>
 
 
-    <div class="destaque">
-        <h3> Sabedoria: </h3>
-        O mundo é cheio de distrações que nos
-        afastam de nosso propósito.
-        Então atente o seu
-        conhecimento para os céus, de onde o socorro vem.
-        Por que dele, por ele e
-        para ele são todas as coisas.
-        O mundo é cheio de distrações que nos
-        afastam de nosso propósito.
-        Então atente o seu
-        conhecimento para os céus, de onde o socorro vem.
-        Por que dele, por ele e
-        para ele são todas as coisas.O mundo é cheio de distrações que nos
-        afastam de nosso propósito.
-        Então atente o seu
-        conhecimento para os céus, de onde o socorro vem.
-        Por que dele, por ele e
-        para ele são todas as coisas.
 
-        <div> <br>
+<!--fecha div 1 (container)--></div>
 
-        <button> CLIQUE AQUI </button>
 
 </body>
 
