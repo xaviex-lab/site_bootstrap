@@ -7,6 +7,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Link que importa font do google-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
   <!-- Componente CSS do Bootstrap 5 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css"
     integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA=="
@@ -19,44 +24,51 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Meu site</title>
 
+  <style>
+    h1, h4, p {
+
+      font-family: "outfit";
+    }
+  </style>
+
 </head>
 
 <!-- A tag <body> contém tudo o que apare3ce no front-end. -->
 
 <body style="padding-top: 55px;">
 
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">Meu site</a>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Meu site</a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="mynavbar">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Início</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="sobre.html">Sobre</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contato.html">Contato</a>
-        </li>
-      </ul>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+        </ul>
 
-      <form class="d-flex">
-        <div class="input-group">
-          <input class="form-control" type="text" placeholder="Procurar..." required>
-          <button class="btn btn-warning" type="button">
-            <i class="bi bi-search"></i>
-          </button>
-        </div>
-      </form>
+        <form class="d-flex">
+          <div class="input-group">
+            <input class="form-control" type="text" placeholder="Procurar..." required>
+            <button class="btn btn-warning" type="button">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
   <!--abre div 1-->
   <div class="container p-3 my-3 rounded-3">
@@ -111,9 +123,9 @@
     <!--fecha div 1 (container)-->
   </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js"
-   integrity="sha512-HvOjJrdwNpDbkGJIG2ZNqDlVqMo77qbs4Me4cah0HoDrfhrbA+8SBlZn1KrvAQw7cILLPFJvdwIgphzQmMm+Pw=="
-  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js"
+    integrity="sha512-HvOjJrdwNpDbkGJIG2ZNqDlVqMo77qbs4Me4cah0HoDrfhrbA+8SBlZn1KrvAQw7cILLPFJvdwIgphzQmMm+Pw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </body>
 
